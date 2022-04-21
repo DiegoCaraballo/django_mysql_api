@@ -1,10 +1,12 @@
-# Simple Example Rest API with Django and MySql
+# Example Rest API with Django and MySql
 
-## Database Configuration
+### GET, POST, PUT and DELETE of Companies
+
+#### Database Configuration
 
 In settings.py:
 
-```json
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
